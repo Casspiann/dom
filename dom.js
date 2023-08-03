@@ -22,11 +22,15 @@ for(var i=0;i<items.length;i++){
   items[i].style.fontWeight='bold';
 }*/
 //GET ELEMENT BY TAG NAME
-var li = document.getElementsByTagName("li");
+/*var li = document.getElementsByTagName("li");
 console.log(li);
 console.log(li[1]);
 li[1].textContent="Hello";
 li[1].style.fontWeight="bold";
 li[4].className = "list-group-item";
-//li[1].style.backgroundColor="green";
+//li[1].style.backgroundColor="green";*/
+var li = document.querySelectorAll("li");
+li[1].style.backgroundColor="green";
+li[2].style.display="none";
+li[4].className = "list-group-item";
 
