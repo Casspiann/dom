@@ -1,5 +1,5 @@
 //console.log(document.getElementById("header-title"));
-var headertitle = document.querySelector(".title");
+/*var headertitle = document.querySelector(".title");
 console.log(headertitle);
 var header = document.getElementById('main-header');
 //headertitle.textContent="hello";
@@ -12,3 +12,12 @@ headertitle.style.color = "green";
     addItemsTitle.style.fontWeight = "bold";
     addItemsTitle.style.color = "green";
   });*/
+  
+var items = document.getElementsByClassName("list-group-item");
+console.log(items);
+//console.log(items[1]);
+items[2].textContent = "hello";
+items[2].style.backgroundColor="green";
+for(var i=0;i<items.length;i++){
+  items[i].style.fontWeight='bold';
+}
