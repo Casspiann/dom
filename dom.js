@@ -11,7 +11,7 @@ headertitle.style.color = "green";
     const addItemsTitle = document.querySelector(".title");
     addItemsTitle.style.fontWeight = "bold";
     addItemsTitle.style.color = "green";
-  });*/
+  });
   
 var items = document.getElementsByClassName("list-group-item");
 console.log(items);
@@ -20,4 +20,13 @@ items[2].textContent = "hello";
 items[2].style.backgroundColor="green";
 for(var i=0;i<items.length;i++){
   items[i].style.fontWeight='bold';
-}
+}*/
+//GET ELEMENT BY TAG NAME
+var li = document.getElementsByTagName("li");
+console.log(li);
+console.log(li[1]);
+li[1].textContent="Hello";
+li[1].style.fontWeight="bold";
+li[4].className = "list-group-item";
+//li[1].style.backgroundColor="green";
+
